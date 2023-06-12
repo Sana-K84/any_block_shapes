@@ -1,0 +1,16 @@
+.wrapper {
+    display: inline-block;
+}
+
+.wrapper:hover .any_form {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.any_form {
+    width: 500px;
+    height: 500px;
+    background: rgb(45, 41, 41);
+    background: linear-gradient(-25deg, rgba(45, 41, 41, 1) 0%, rgba(138, 110, 249, 1) 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    transition: all .5s;
+}
